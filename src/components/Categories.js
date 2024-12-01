@@ -15,6 +15,7 @@ function Categories({ setCategorieFiltered }) {
                 {categories.map((cat) => (
                     <option key={cat} value={cat}>{cat}</option>
                 ))}
+                <option value="reinitialiser">Voir toutes les plantes</option>
             </select>
         </div>
     )
